@@ -1,9 +1,16 @@
 import React from 'react'
+import TextInput from './TextInput'
+
 
 var App = React.createClass( {
 
 	render() {
-		return <div>This is a React app now!</div>	
+		return (
+			<div>
+				<h1>This is the app component</h1>
+				<TextInput/>
+			</div>
+		)
 	}
 
 })
